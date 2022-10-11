@@ -2,3 +2,24 @@
   margin-left : 80px;
   font-size : 18px;
 }
+.scoreboard{
+  display: grid;
+  grid-template-columns: repeat(5,2fr);
+  grid-gap: 2em;
+}
+.people{
+  display: flex;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-align: center;
+  font-size: larger;
+  font-family: cursive;
+  width: 100%;
+  padding: 1rem;
+}
+.score{
+  text-align: center;
+  font-size: larger;
+  font-family: cursive;
+}
+
